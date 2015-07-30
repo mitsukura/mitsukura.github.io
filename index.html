@@ -1,50 +1,123 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<title>三ッ倉利晃　｜　About</title>
-<link rel="stylesheet" href="about.css" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--[if IE]>
-<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-<![endif]-->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>三ッ倉利晃｜About</title>
+	<!-- BootstrapのCSS読み込み -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<!-- jQuery読み込み -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<!-- BootstrapのJS読み込み -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<style>
+		body {
+			background-color: red;
+			font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+		}
+		.container {
+
+		}
+		
+		h1 {
+			font-size: 17px;
+			color: white;
+			text-align: center;
+			letter-spacing:0.2em;
+		}
+		h2 {
+			font-size:24px;
+			text-align:center;
+			color: pink;
+			letter-spacing:0.5em;
+		}
+		h3{
+			text-align:center;
+			color:pink;
+		}
+		.icon {
+			text-align: center;
+		}
+		.glyphicon {
+			font-size: 40px;
+			margin: 50px  0 0 0;
+			padding: 0;
+			color: white;
+		}
+		img{
+			margin: 50px 0 ;
+			max-width:200px;
+			border:5px solid #fff;
+			border-radius:100%;
+			text-align: center;
+		}
+		p {
+			color: pink;
+			margin:10px 150px 50px 150px;
+		}
+		p.footer{
+			text-align:center;
+			font-size:11px;
+		}
+		ul {
+			text-align:center;
+			list-style-type:none;
+			margin:0;
+			padding:0;
+		}
+      @media (max-width: 768px) {
+		p {
+			color: pink;
+			margin:10px 40px 50px 40px;
+		}        
+      }	
+      @media (max-width: 325px) {
+		p {
+			color: pink;
+			margin: 10px 10px 50px 10px ;
+		}        
+      }	      
+			</style>
 </head>
 <body>
-<div id="wapper">
-	<header>
-	  <nav>
-		  <ul>
-			  <li><a href="index.html">home</a></li>
-			  <li><a href="about.html" class="selected">About</a></li>
-			  <li><a href="contact.html">Contact</a></li>
-		  </ul>
-	  </nav>
-	  <div id="logo">
-		  <img src="profile.jpg" alt="証明写真" />
-		  <h1>三ッ倉利晃</h1>
-	  </div>
-	</header>
-  <div class="container">
-	  <section>
-		  <h2>About</h2>
-		  <h3>自己紹介</h3>
-		  <p>三ッ倉利晃（ディレクター）</p>
-		  <p>秋田県大館市。フリーランスで活動しています。</p>
-		  <p>最近は、<span class="red">ウェブ解析</span>や<span class="red">Ruby on Rails</span>を使って仕事をする機会が多くなりました。</p>
-		  <p>私のポートフォリオをみて気になった方は、<a href="contact.html">Contact</a>よりご連絡をお願い致します。</p>
-		  <h3>リンク</h3>
-		  <ul>
-		  	<li><a href="https://www.facebook.com/mitsukura" target="_blank">Facebook</a></li>
-		  	<li><a href="https://twitter.com/mitsukura/" target="_blank">twiiter</a></li>
-		  </ul>
-	  </section>
-	  <footer>
-	      <p>&copy; 2015 Toshiaki Mitsukura.</p>
-	  </footer>
-  </div>
-    
+	<div class="container">
+		<header>
+		<div class="container-fluid">
+
+			<div class="row">
+				<div class="col-sm-12">
+					<h1>三ッ倉利晃  /  Toshiaki Mitsukura</h1>
+				</div>
+			</div>
+		</div>
+		</header>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12" style="text-align: center;">
+					<img src="mitsukura_face.jpg" alt="証明写真" />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-offset-3 col-sm-6 col-sm-offset-3">
+					<h2>自己紹介</h2> 
+					<p>三ッ倉利晃（みつくら　としあき）　秋田県大館市出身</p>
+					<p>20代は、東京でウェブ制作会社にウェブディレクターとして勤めていました。</p>
+					<p>30代は、家業を9年と、ウェブ制作・ウェブコンサルティングをフリーランスを6年ほどやっております。</p>
+					<p>昨年、上級ウェブ解析士取得しました。</p>
+					<p>30代最後は、html,css,jsの域を超えた言語を勉強するべく<span style="color: green; font-weight:bold;">【ruby on rails】</span>にも挑戦しウェブサービスを始めます。</p>
+				</div>
+			</div>
+			<footer>
+				<h3>リンク</h3>
+				  <ul>
+				  	<li><a href="https://www.facebook.com/mitsukura">Facebook</a></li>
+				  	<li><a href="https://twitter.com/mitsukura">twiiter</a></li>
+				  </ul>
+				  <p class="footer">&copy; 2015 Toshiaki Mitsukura.</p>
+			</footer>	
+		</div>
+		</div>	
+	</div>
 </body>
 </html>
