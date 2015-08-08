@@ -73,7 +73,7 @@
 		}
 		ul {
 			list-style-type:none;
-			margin:0;
+			margin-top:10px;
 			padding:0;
 		}
 		footer {
@@ -83,15 +83,42 @@
 		}
 		
       @media (max-width: 768px) {
+		img{
+			margin: 50px 0 ;
+			max-width:200px;
+			border:35px solid green;
+			border-radius:100%;
+			text-align: center;
+		}
+		h2 {
+			margin:0;
+			padding:20px 0;
+			font-size:24px;
+			text-align: center;
+			color: green;			
+		}
 		p {
-			color: pink;
-			margin:10px 40px 50px 40px;
+			color: green;
+			margin:0;
 		}        
       }	
       @media (max-width: 325px) {
+		img{
+			margin: 50px 0 ;
+			max-width:200px;
+			border:55px solid red;
+			border-radius:100%;
+			text-align: center;
+		}
+		h2 {
+			margin:0;
+			padding:10px 0;
+			font-size:24px;
+			color: red;			
+		}
 		p {
-			color: pink;
-			margin: 10px 10px 50px 10px ;
+			color: red;
+			margin: 0;
 		}        
       }	      
 			</style>
@@ -114,9 +141,11 @@
 					<img src="mitsukura_face.jpg" alt="証明写真" />
 				</div>
 			</div>
+		</div>
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col-sm-3"><h2 class="jiko">自己紹介</h2></div>
-				<div class="col-sm-9">
+				<div class="col-xs-12 col-sm-3"><h2 class="jiko">自己紹介</h2></div>
+				<div class="col-xs-12 col-sm-9">
 					<p>三ッ倉利晃（みつくら　としあき）　秋田県大館市出身</p>
 					<p>20代は、大学卒業後、東京でウェブ制作会社にウェブディレクターとして勤めていました。</p>
 					<p>30代は、地元にもどり、家業を9年と、ウェブ制作・ウェブコンサルティングをフリーランスを6年ほどやっております。</p>
@@ -124,18 +153,21 @@
 					<p>30代最後は、html,css,jsの域を超えた言語を勉強するべく<span style="color: green; font-weight:bold;">【ruby on rails】</span>に挑戦しウェブサービスを始めます。</p>
 				</div>
 			</div><!-- row -->
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-sm-3"><h2>リンク</h2></div>
-						<div class="col-sm-9">
-							<p>私と繋がる場所がここにあります。</p>
-							<ul>
-								<li><a href="https://www.facebook.com/mitsukura">Facebook</a></li>
-								<li><a href="https://twitter.com/mitsukura">twiiter</a></li>
-							</ul>
-						</div>
-					</div><!-- row -->					
-				</div><!-- container-fluid -->
+		</div><!-- container-fluid -->
+		<hr>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-12 col-sm-3"><h2>リンク</h2></div>
+				<div class="col-xs-12 col-sm-9">
+					<p>私と繋がる場所がここにあります。</p>
+					<ul>
+						<li><a href="https://www.facebook.com/mitsukura">Facebook</a></li>
+						<li><a href="https://twitter.com/mitsukura">twiiter</a></li>
+					</ul>
+				</div>
+			</div><!-- row -->					
+		</div><!-- container-fluid -->
+
 			<footer>
 				  <p class="footer">&copy; 2015 Toshiaki Mitsukura.</p>
 			</footer>	
