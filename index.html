@@ -29,15 +29,13 @@
 			letter-spacing:0.2em;
 		}
 		h2 {
-			padding:10px 50px;
-			margin:0 150px 30px 150px;
+			padding-right: 20px;
+			margin:0;
 			font-size:24px;
-			text-align:center;
-			color: #777;
-			letter-spacing:0.5em;
-			border-bottom:10px solid #ddd;
-			
+			text-align:right;
+			color: #777;			
 		}
+
 		h3{
 			padding:10px 50px;
 			margin:0 150px 10px 150px;			
@@ -64,7 +62,8 @@
 		}
 		p {
 			color: #666;
-			margin:10px 150px 20px 150px;
+			margin:0;
+			line-height:180%;
 			font-size:13px;
 			letter-spacing:0.1em;
 		}
@@ -73,14 +72,14 @@
 			font-size:11px;
 		}
 		ul {
-			text-align:center;
 			list-style-type:none;
 			margin:0;
 			padding:0;
 		}
 		footer {
 			letter-spacing:0.1em;
-			margin-bottom:50px;
+			margin:0px;
+			padding: 0;
 		}
 		
       @media (max-width: 768px) {
@@ -116,24 +115,31 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-offset-3 col-sm-6 col-sm-offset-3">
-					<h2>自己紹介</h2> 
+				<div class="col-sm-3"><h2 class="jiko">自己紹介</h2></div>
+				<div class="col-sm-9">
 					<p>三ッ倉利晃（みつくら　としあき）　秋田県大館市出身</p>
 					<p>20代は、大学卒業後、東京でウェブ制作会社にウェブディレクターとして勤めていました。</p>
 					<p>30代は、地元にもどり、家業を9年と、ウェブ制作・ウェブコンサルティングをフリーランスを6年ほどやっております。</p>
 					<p>昨年、上級ウェブ解析士取得しました。</p>
 					<p>30代最後は、html,css,jsの域を超えた言語を勉強するべく<span style="color: green; font-weight:bold;">【ruby on rails】</span>に挑戦しウェブサービスを始めます。</p>
 				</div>
-			</div>
+			</div><!-- row -->
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-3"><h2>リンク</h2></div>
+						<div class="col-sm-9">
+							<p>私と繋がる場所がここにあります。</p>
+							<ul>
+								<li><a href="https://www.facebook.com/mitsukura">Facebook</a></li>
+								<li><a href="https://twitter.com/mitsukura">twiiter</a></li>
+							</ul>
+						</div>
+					</div><!-- row -->					
+				</div><!-- container-fluid -->
 			<footer>
-				<h3>リンク</h3>
-				  <ul>
-				  	<li><a href="https://www.facebook.com/mitsukura">Facebook</a></li>
-				  	<li><a href="https://twitter.com/mitsukura">twiiter</a></li>
-				  </ul>
 				  <p class="footer">&copy; 2015 Toshiaki Mitsukura.</p>
 			</footer>	
 		</div>
-	</div>
+		</div>	
 </body>
 </html>
